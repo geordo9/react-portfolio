@@ -1,7 +1,8 @@
 .App {
-  padding-bottom: 20px;
   max-width: 600px;
   margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 h2 {
