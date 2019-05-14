@@ -3,8 +3,8 @@ import { Route, Switch } from 'react-router-dom'
 import Header from '../Header/Header'
 import LandingPage from '../../routes/LandingPage/LandingPage'
 import NotFoundPage from '../../routes/NotFoundPage/NotFoundPage'
-
 import './App.css'
+
 
 
 
@@ -33,14 +33,8 @@ class App extends Component {
         <main className='App__main'>
           {this.state.hasError && <p className='red'>There was an error! Oh no!</p>}
           <Switch>
-            <Route
-              exact
-              path={'/'}
-              component={LandingPage}
-            />
-            <Route
-              component={NotFoundPage}
-            />
+            <Route exact path={'/'} component={LandingPage} />
+            <Route component={NotFoundPage} />
           </Switch>
         </main>
       </div>

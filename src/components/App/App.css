@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+h2 {
+  margin-bottom: 0px;
+}
+
 
 .App__main {
   margin-top: 20px;

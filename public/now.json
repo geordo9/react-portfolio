@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": "geordie-connell-portfolio",
   "name": "portfolio",
   "routes": [{
       "src": "^/static/(.*)",
