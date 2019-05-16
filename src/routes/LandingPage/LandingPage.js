@@ -20,7 +20,7 @@ export default class LandingPage extends Component {
             <h2>About Me:</h2>
             <p>I am currently in a student in the Engineering Immersion Boot Camp at Thinkful. I love programming because I love the
             incredible feeling when my code comes to life on screen. The ever-expanding number libraries and systems to learn
-            satisfies my constant desire to continue learning. Throughout the boot camp, I have becoming proficient in a number of Javascript libraries including React.js, Node.js, Knex.js as well as PostgreSQL and many more!</p>
+            satisfy my constant desire to continue learning. Throughout the boot camp, I have become proficient in a number of Javascript libraries including React.js, Node.js, Knex.js as well as PostgreSQL and many more!</p>
             <br />
             <p>I have a BS in Statistics from Lehigh University and have previous experiences in the financial services industry working
                 in client relations and sales. If you are looking for an articulate, analytical mind, <a href="mailto:geordie.connell@gmail.com">send me an email!</a>
@@ -55,8 +55,8 @@ export default class LandingPage extends Component {
                   <img src={require("./spaced_repitition_user_page.png")} alt="A Spaced Repitition user's page with Italian words" />
               </a>
               <br />
-              <h3>Spaced Repitition</h3>
-              <p>Practice learning a language with the spaced reptition revision technique.</p>
+              <h3>Repetizione</h3>
+              <p>Practice learning a language with the spaced repetition revision technique.</p>
               <p className='tagline'>Start practicing today!</p>
               <p><b>Built Using:</b> React.js, Node.js, Knex.js, PostgreSQL, Cypress.js, Mocha.js, Chai.js, HTML5, CSS</p>
               <a href="https://ripetizione.now.sh/" target="blank"><button>Live App</button></a>
@@ -97,9 +97,6 @@ export default class LandingPage extends Component {
     
         <footer id="Contact">
             <h2>Contact Geordie:</h2>
-            {/* <p>Email: <a href="mailto:geordie.connell@gmail.com">geordie.connell@gmail.com</a></p>
-            <p>Github: <a href="https://github.com/geordo9">@geordo9</a></p>
-            <p><a href="https://www.linkedin.com/in/geordie-connell-62854b5b/">LinkedIn Profile</a></p> */}
             <a href="mailto:geordie.connell@gmail.com" target="blank">
               <img src={require("./gmail.png")} alt="Gmail Logo" />
             </a>
