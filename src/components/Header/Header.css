@@ -24,6 +24,7 @@
 
 .HeaderList {
   margin-top: 0;
+  padding-inline-start: 10px;
 }
 
 .HeaderList li {
@@ -44,12 +45,22 @@
 }
 
 
-@media screen and (min-width: 450px) {
+@media only screen and (min-width: 450px) {
   .Header {
     align-items: baseline;
   }
 
   .Header h1 {
     font-size: 22pt;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Header {
+    align-items: baseline;
+  }
+
+  .HeaderList li a {
+    font-size: 20px;
   }
 }
