@@ -58,8 +58,11 @@ export default class LandingPage extends Component {
                   <img src={require("./spaced_repitition_user_page.png")} alt="A Spaced Repitition user's page with Italian words" />
               </a>
               <br />
-              <h3>Repetizione</h3>
-              <p>Practice learning a language with the spaced repetition revision technique.</p>
+              <h3>Ripetizione</h3>
+              <p>Learn Italian with spaced repetition technique, a CRUD app with singly linked list implementation.
+                The app uses the linked list along with an algorithm we wrote to have a user practice words more or less
+                often depending on how many times the user has correctly answered the word.
+              </p>
               <p className='tagline'>Start practicing today!</p>
               <p><b>Built Using:</b> React.js, Node.js, Knex.js, PostgreSQL, Cypress.js, Mocha.js, Chai.js, HTML5, CSS</p>
               <a href="https://ripetizione.now.sh/" target="blank"><button>Live App</button></a>
