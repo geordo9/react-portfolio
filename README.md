@@ -1,30 +1,16 @@
-# City Showdown Client
+# Geordie Connell Portfolio
 
 ## Live Link
-- https://city-showdown.geordieconnell.now.sh/
+- https://geordie-connell-portfolio.now.sh/
 
-## API Documentation
-- Endpoints:
-    /auth
-        /login
-        /refresh
-    /baseball
-        /id
-        /playoffs
-            /id
-    /city
-        /id
-    /showdowns
-        /id
-        /user/id
+## Summary
 
-- This API is supported by a database with every city in Major League Baseball (MLB), every team in MLB,
-  each team's playoff records, and every showdown grouped both by showdown id and user ids.
-
-## App Summary
-
-- City Showdown lets you stack up your favorite baseball team against any other MLB team. The app compares your team's playoff records against any other team of your choosing and saves the "showdown" to your profile. NBA, NFL, and NHL will be coming soon!
+- Welcome to my portfolio's README! Feel free to check out the code either here on GitHub or clone this repo to take a look locally!
 
 ## Technologies Used
 
-- HMTL5, CSS, React.js, Node.js, PostgreSQL, Mocha, Chai, Enzyme
+- React.js
+
+## Test It Locally
+
+- Clone this GitHub, type in npm install and once it is installed, type npm start.
