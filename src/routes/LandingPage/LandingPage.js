@@ -19,8 +19,8 @@ export default class LandingPage extends Component {
             <img src={require("./Linked.jpg")} alt="Geordie Connell headshot" />
             <h2>About Me:</h2>
             <p>I am currently a student in the Engineering Immersion Boot Camp at Thinkful. Programming has become a passion of mine because of the incredibly satisfying feeling when my code comes to life on screen. 
-               The ever-expanding number libraries and systems to learn satisfy my constant desire to continue learning. Throughout the boot camp, we worked in groups to develop mobile-first web applications.
-               The teams I was a part of would take advantage of Trello boards and pairing off to delegate certain to make sure we were always taking the proper steps forward each day.
+               The ever-expanding number of libraries and systems to learn satisfy my constant desire to continue learning. Throughout the boot camp, we worked in groups to develop mobile-first web applications.
+               The teams I was a part of would take advantage of Trello boards and pairing off to delegate certain tasks to make sure we were always taking the proper steps forward each day.
                Being flexible to work on different aspects of the projects was paramount and being able to mix my creative methods with my teammates' was a preferable way to design our apps.
                Because of Thinkful, I have become proficient in a number of Javascript libraries including React.js, Node.js, Knex.js as well as PostgreSQL and many more!
             </p>
